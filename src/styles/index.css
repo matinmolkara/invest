@@ -1,0 +1,640 @@
+
+
+/*---------------------------------------
+HERO        
+-----------------------------------------*/
+.hero{
+    width: 100%;
+    background-color: var(--primary-color);
+    background-image: url('../assets/img/index/Backgro1.png');
+    background-repeat: no-repeat;
+    background-position:right;
+  height: 687px;
+  position: relative;
+  top: 0;
+  z-index: 0;
+}
+
+.hero-footer{
+   position: absolute;
+   bottom: -40px;
+    width: 100%;
+    z-index: 0;
+}
+.hero-footer img{
+    width: 100%;
+}
+.hero-content{
+    margin-top: 60px;
+    margin-left: 30px;
+    color: var(--main-color);
+    position: relative;
+    z-index: 100;
+}
+.hero-content > h6{
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: var(--main-color);
+}
+.hero-content h1{
+    font-weight: 700;
+    color: var(--main-color);
+}
+.hero-content h1:nth-child(3){
+    color: var(--light-color);
+}
+.hero-content h1:nth-child(4){
+    color: #9A6E21;
+}
+.hero-content > p{
+    font-weight: 300;
+font-size: 13px;
+line-height: 23px;
+width: 60%;
+color: var(--main-color);
+}
+.hero-content-button a{
+cursor: pointer;
+
+}
+
+.hero-content-button:hover a{
+    color: var(--primary-light-color);
+    
+    
+    }
+/*---------------------------------------
+about-us       
+-----------------------------------------*/
+
+.about-us{
+    margin-top: 100px;
+}
+.about-us-1 > h6{
+    color: var(--main-color);
+    font-weight: 400;
+}
+.about-us-1-0{
+    display: flex;
+}
+.about-us-1-0-1{
+    margin-left: 15px;
+}
+.about-us-1 button{
+    background-color: var(--main-color);
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px rgba(159, 159, 159, 0.25);
+    color: var(--primary-light-color);
+  padding:5px 9px;
+  transition: all 0.5s ease;
+}
+.about-us-1 button a{
+    
+    color: var(--primary-light-color);
+}
+.about-us-1 button:hover{
+    background-color:var(--primary-light-color) ;
+}
+.about-us-1 button:hover a{
+    color: #F2C069;
+}
+/*---------------------------------------
+download-app      
+-----------------------------------------*/
+.download-app{
+    background: url(../assets/img/index/backpic.png) no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.download-app-0{
+    margin-top: 100px;
+}
+.download-app-0 h6{
+    color: var(--main-color);
+    font-weight: 400;
+}
+.download-app-1{
+    margin-top: 50px;
+}
+/*---------------------------------------
+how-work        
+-----------------------------------------*/
+.how-work{
+    margin-top: 70px;
+}
+.how-work-0 img{
+    width: 95%;
+}
+.about-us-1-0-0 img{
+    display: block;
+}
+.float-right{
+    float: right;
+}
+
+/*---------------------------------------
+invest-pack        
+-----------------------------------------*/
+.invest-pack{
+    background: url(../assets/img/index/investpack-back.png) no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 1018px;
+}
+
+.invest-pack-0{
+    text-align: center;
+    padding:40px;
+    
+}
+
+.invest-pack-1{
+    position: relative;
+width: 293px;
+height: 395px;
+background-color: var(--primary-light-color);
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.invest-pack-1 > span{
+    background: #F2C069;
+border-radius: 0px 10px 10px 0px;
+position: absolute;
+top: 32px;
+left: 0;
+width: 60px;
+height: 47px;
+font-weight: 700;
+font-size: 25px;
+line-height: 22px;
+text-align: center;
+padding-top: 10px;
+}
+.invest-pack-1 > button{
+    background: #FBFBFB;
+border-radius: 10px;
+width: 143px;
+margin: auto;
+height: 35px;
+position: absolute;
+bottom: -10px;
+left: 70px;
+transition: all 0.5s ease;
+}
+.invest-pack-1 > button:hover{
+    background:var(--primary-light-color);
+    color: #F2C069;
+    border: 1px solid #F2C069;
+
+}
+.invest-pack-1 > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFB;
+border-radius: 10px;
+width: 143px;
+margin: auto;
+height: 35px;
+position: absolute;
+bottom: -10px;
+left: 70px;
+transition: all 0.5s ease;
+color: #000000;
+}
+.invest-pack-1 > a:hover{
+    background:var(--primary-light-color);
+    color: #F2C069;
+    border: 1px solid #F2C069;
+
+}
+.invest-pack-1-0{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30px;
+}
+.invest-pack-1-0 img{
+    display: block;
+    margin: auto;
+}
+.invest-pack-1-0 h4{
+color: var(--main-color);
+font-weight: var(--font-weight-semibold);
+margin: 15px 0;
+}
+.invest-pack-1-0 div > span:first-child{
+    font-weight:var(--font-weight-bold);
+font-size: 35px;
+color: var(--secondary-color);
+}
+.invest-pack-1-0 div > span:last-child{
+    font-weight:var(--font-weight-light);
+font-size: var(--p-font-size);
+color: var(--secondary-color);
+}
+.invest-pack-1-0 p{
+    color: var(--main-color);
+    margin: 15px 0;
+}
+.invest-pack-1-0-0{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #F2C069;
+    width: 233px;
+    margin: auto;
+    height: 66px;
+    border-radius: 10px;
+}
+.invest-pack-1-0 > .invest-pack-1-0-0 > span:first-child{
+    font-weight: 300;
+font-size: 20px;
+}
+.invest-pack-1-0 > .invest-pack-1-0-0 > span:last-child{
+    font-weight: 400;
+    font-size: 20px;
+    color: #F2C069;
+}
+.invest-pack-2{
+    background: url(../assets/img/index/back2.png) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    width: 1050px;
+
+    height: 380px;
+    border-radius: 15px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.invest-pack-2-0{
+height: 209px;
+width: 100%;
+text-align: center;
+}
+.invest-pack-2-0 h3{
+color: var(--main-color);
+margin: 10px auto;
+
+text-align: center;
+
+max-width: 450px;
+position: relative;
+}
+.invest-pack-2-0 h3:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #F2C069;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .invest-pack-2-0 h3:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #F2C069;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+.invest-pack-2-0 p{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    color: #F2C069;
+    
+}
+.invest-pack-2-0  > button{
+    background: #F2C069;
+    font-weight: 400;
+    color: var(--primary-color);
+border-radius: 10px;
+width: 143px;
+margin: auto;
+margin-top: 10px;
+height: 35px;
+
+}
+.invest-pack-2-0  > button:hover{
+    color: #F2C069;
+    background:var(--primary-color);
+}
+/*---------------------------------------
+PROFILE       
+-----------------------------------------*/
+.profit{
+    margin-top: 70px;
+}
+.profit-0{
+    width: 67%;
+    margin: auto;
+    background: url(../assets/img/index/profit-back.png) no-repeat center;
+  background-size: cover;
+   
+    border-radius: 15px;
+    padding: 40px;
+}
+.profit-form{
+    width: 70%;
+}
+.profit-form label{
+    color: var(--main-color);
+}
+.profit-form .form-control{
+   
+    color: var(--main-color);
+}
+.profit-form .form-control:focus, .form-select:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.profit-0 h3{
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+
+.profit-form button{
+    background-color: var(--main-color);
+    width: 143px;
+    height: 35px;
+}
+.profit-form button:hover{
+    border-color: #F2C069;
+    color: #F2C069;
+}
+/*---------------------------------------
+features      
+-----------------------------------------*/
+.features{
+margin-top: 70px;
+}
+.feature-0{
+    width: 324px;
+    height: 225px;
+    border: 1px solid #F2C069;
+border-radius: 20px;
+text-align: center;
+padding: 10px 50px;
+background: white;
+z-index: 3;
+}
+.features p.feature-1{
+text-align: center;
+margin: auto;
+width: 40%;
+}
+.salam{
+    display: block;
+    margin: auto;
+}
+#feature-00{
+    background-image: url(../assets/img/index/yelloback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 324px;
+    height: 239px;
+    
+    
+   transform:rotate(50deg) background;
+   overflow: visible;
+   position: relative;
+}
+.feature-00{
+    background-color: #FBFBFB;
+   
+   position: absolute;
+   top: 20px;
+   left: 10px;
+   width: 305px;
+   height: 200px;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.banner-0{
+    width: 1160px;
+    height: 256px;
+    margin: auto;
+    margin-top: 70px;
+    padding-top: 20px;
+    background-image: url(../assets/img/index/banner.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+ background-size: cover;
+    text-align: center;
+}
+.banner-0 h2,.banner-0 p{
+    color: var(--main-color);
+}
+.banner-0 h2{
+    margin-bottom: 20px;
+}
+.banner-0 p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.blogs-0{
+    position: relative;
+    width: 374px;
+    height: 468px;
+    border: 1px solid #F2C069;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px -15px 2px -5px #F2C069; 
+box-shadow: 0px -15px 2px -5px #F2C069;
+}
+.blogs-0-1 img{
+    width: 100%;
+    margin-top: -2px;
+}
+.blogs-0-3{
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.blogs-0-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #F2C069;
+    padding: 5px;
+    margin: 0 20px;
+}
+.blogs-0-2 > span:first-child{
+   color: var(--main-color);
+    
+}
+.blogs-0-2 > span:last-child{
+   color: var(--primary-light-color);
+    
+}
+.circle-btn{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 100%;
+    text-align: center;
+    position: absolute;
+    right: 40px;
+    bottom: -30px;
+}
+.circle-btn:hover{
+    background-color: var(--primary-light-color);
+}
+.circle-btn i{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-bold);
+
+}
+
+.features-mobile{
+    display:none;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("../assets/img/about/leftarrow.png") !important;
+    width: 30px;
+    height: 30px;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("../assets/img/about/rightarrow.png") !important;
+     width: 30px;
+     height: 30px;
+   }
+
+
+
+
+
+@media screen and (max-width:992px){
+    .hero{
+        background-image: url('../assets/img/index/Backgro2.png');
+        background-position:center bottom;
+        width: 100%;
+     }
+     .hero-content{
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 0 10px;
+}
+h1,h2{
+    font-size: var(--h3-font-size);
+ }
+     .hero-content > p{
+        width: 100%;
+     }
+     .hero-footer{
+        position: absolute;
+        bottom:0px;}
+        .about-us{
+            margin-top: 50px;
+            padding: 10px;
+        }
+        .about-us-0{
+            display: none;
+        }
+        .download-app-0{
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .download-app-1 img{
+            width: 309px;
+            margin: auto;
+            height: 296px;
+        }
+        .download-app-0-0{
+            display: flex;
+            justify-content: space-between;
+        }
+        .how-work{
+            padding: 10px;
+        }
+        .how-work-1 > .about-us-1 > h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .invest-pack-1{
+            margin-bottom: 40px;
+        }
+
+        .invest-pack-2{
+            
+            width: 95%;
+        
+            height: 410px;}
+            .invest-pack-2-0 p{
+                width:95%;
+            }
+
+            .invest-pack-2-0 h3{
+                margin-top: 0;
+            }
+            .invest-pack-2-0 h3:before {     
+                width: 0px;
+              }
+              .invest-pack-2-0 h3:after {
+                width: 0px;
+              }
+
+
+              .profit-0{
+
+                width: 93%;
+            }          
+              .profit-chart{
+                width: 100%;
+              }
+     .profit-chart > img{
+        margin-top: 40px;
+        width: 320px;
+        height: 201px;
+     }       
+     .profit-form{
+        width: 95%;
+        margin: auto;
+    }  
+
+
+    .banner-0{
+        width: 338px;
+       height: 410px;
+        border-radius: 20px;
+        padding-top: 40px;
+    }
+    .banner-0 p{
+        width: 90%;
+       margin-top: 40px;
+    }
+    .banner-0 h2{
+        font-size: 25px;
+        width: 80%;
+        margin: auto;
+    }
+    .blogs-0{
+        margin-bottom: 50px;
+    }
+    .features-desktop{
+        display: none;
+    }
+    .features-mobile{
+        display: block;
+    }
+}
